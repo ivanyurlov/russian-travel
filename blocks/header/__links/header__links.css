@@ -1,12 +1,5 @@
 .header__links {
-  width: 78px;
   display: flex;
-  justify-content: space-between;
-  text-decoration: none;
-}
-
-@media (max-width: 320px) {
-  .header__links {
-    width: 62px;
-  }
+  list-style-type: none;
+  gap: 18px;
 }
