@@ -1,13 +1,12 @@
-.photo-grid ul {
+.photo-grid {
   max-width: 1184px;
   position: relative;
+  margin: 92px auto 0;
+  padding: 0;
   display: grid;
   align-items: center;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   gap: 16px;
-  list-style-type: none;
-  margin: 92px auto 0;
-  padding: 0;
 }
 
 @media (max-width: 1250px) {

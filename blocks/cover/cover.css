@@ -11,9 +11,9 @@
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   .cover {
-    min-height: 625px;
+    min-height: 640px;
   }
 }
 
@@ -32,5 +32,6 @@
 @media (max-width: 320px) {
   .cover {
     min-height: 200px;
+    margin: 66px auto 0;
   }
 }
